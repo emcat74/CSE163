@@ -10,8 +10,8 @@ contained in this file.
 # Imports
 import matplotlib.pyplot as plt
 import seaborn as sns
-sns.set()  
 from dataset import final_df
+sns.set()
 
 # Filter dataset for relevant information
 gender_df = final_df[['name', 'year', 'starring', 'gender']]
